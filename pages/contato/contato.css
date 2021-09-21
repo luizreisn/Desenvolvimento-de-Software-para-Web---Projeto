@@ -1,5 +1,5 @@
 body{
-    padding: 60px 10px 0px 10px;
+    padding: 96px 10px 0px 10px;
     background-color: #1ed760;
 }
 
@@ -12,6 +12,22 @@ body{
 }
 
 .jumbotron{
-    padding: 70px 30px 70px 30px; /* a ordem é TOPO | DIREITA | INFERIOR | ESQUERDA*/
-    margin: 0px auto;
+    padding: 40px 30px 0px 30px; /* a ordem é TOPO | DIREITA | INFERIOR | ESQUERDA*/
+    margin: 10px;
 }
+
+.endereco{
+    padding: 0px;
+}
+address{
+    font-size: 10pt
+}
+
+.form-group{
+    width: 300px;
+}
+
+footer{
+    margin-top: auto;
+}
+

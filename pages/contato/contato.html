@@ -32,10 +32,34 @@
         </div>
     </nav>
 
-    <footer class="jumbotron">
+    <form class="text-center align-items-center">
+        <h1>Contato</h1>
+        <item>
+            <label for="nome">Nome</label>
+            <input class="offset-1" id="nome" type="text" name="nome" placeholder="Digite seu nome completo" required>
+        </item><br>
+        <item>
+            <label for="email">E-Mail</label>
+            <input class="offset-1" id="email" type="email" name="email" placeholder="xxxxxx@xxxx.com" required>
+        </item><br>
+        <item>
+            <label for="tel">Telefone</label>
+            <input class="offset-1" id="tel" type="tel" name="tel" placeholder="(xx)xxxxx-xxxx" required>
+        </item><br>
+        <item>
+            <label for="info">Mensagem</label><br>
+            <textarea id="info" name="info" rows="5" cols="35" placeholder="Digite sua mensagem" required></textarea>
+        </item><br>
+        <item>
+            <button type="submit" class="btn ">Enviar</button>
+            <button type="reset" class="btn btn-danger">Apagar dados</button>
+        </item>
+    </form>
+
+    <footer class="jumbotron footer navbar-fixed-bottom">
         <div class="container">
             <div class="row">
-                <div class="offset-1 col-4 col-sm-2">
+                <div class="col-4 col-sm-3 col-md-2 col-lg-2 offset-1 offset-sm-3 offset-md-4 offset-lg-4">
                     <ul class="list-unstyled">
                         <li><a href="/pages/home/home.html">Home</a></li>
                         <li><a href="/pages/cardapio/cardapio.html">Cardapio</a></li>
@@ -44,11 +68,13 @@
                         <li><a href="/pages/contato/contato.html">Contato</a></li>
                     </ul>
                 </div>
-                <div class="col-7 col-sm-5">
+                <div class="col-5 offset-lg-1 endereco">
                     <address>
                         Av. Paulista, 2000 <br>
                         São Paulo, São Paulo <br>
                         Brasil <br>
+                        +55(11)1111-1111<br>
+                        +55(11)2222-2222
                         <a href="mailto:chernobyls@gmail.com">chernobyls@gmail.com</a>
                     </address>
                 </div>
