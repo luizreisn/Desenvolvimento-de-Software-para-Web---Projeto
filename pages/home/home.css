@@ -1,4 +1,5 @@
 body{
+    padding: 60px 10px 0px 10px;
     background-color: #1ed760;
 }
 
@@ -8,4 +9,16 @@ body{
 
 .imgLogo{
     height: 70px;
+}
+
+.jumbotron{
+    padding: 70px 30px 70px 30px; /* a ordem é TOPO | DIREITA | INFERIOR | ESQUERDA*/
+    margin: 0px auto;
+}
+
+.endereco{
+    padding: 0px;
+}
+address{
+    font-size: 10pt
 }
