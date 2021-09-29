@@ -1,24 +1,21 @@
-body{
-    padding: 60px 10px 0px 10px;
+body {
+    padding: 125px 0px 0px 0px;
     background-color: #1ed760;
 }
 
-.navbar{
+.navbar {
     background-color: #682a8f;
 }
 
-.imgLogo{
-    height: 70px;
+.imgLogo {
+    height: 100px;
 }
 
-.jumbotron{
-    padding: 70px 30px 70px 30px; /* a ordem é TOPO | DIREITA | INFERIOR | ESQUERDA*/
-    margin: 0px auto;
+footer {
+    background-color: #682a8f;
 }
 
-.endereco{
-    padding: 0px;
-}
-address{
-    font-size: 10pt
+a {
+    color: white;
+    font-size: 15pt;
 }
