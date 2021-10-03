@@ -19,6 +19,9 @@ body {
     margin-right: auto;
     margin-bottom: 30px;
     color: white;
+}
+
+.bolder{
     font-weight: bolder;
 }
 

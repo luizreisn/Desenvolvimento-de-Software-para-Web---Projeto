@@ -34,40 +34,43 @@
     </nav>
 
     <form action="" class="formContato">
-        <h4 class="mb-3">Contato</h4>
+        <h4 class="mb-3 text-center bolder">Contato</h4>
+        <p class="mb-3 text-center">Cherno & Byl´s está pronta para atender você. Preencha o formulário abaixo que entraremos em contato o mais rápido possível ou ligue para nossa central de atendimento.</p> <br>
         <hr class="bg-light mb-4 mt-0 mx-auto">
-        <div class="row">
-            <div class="col">
-                <div class="form-group">
-                    <label for="nome">Nome *</label>
-                    <input type="text" name="nome" id="nome" class="form-control" required>
+        <div class="bolder">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="nome">Nome *</label>
+                        <input type="text" name="nome" id="nome" class="form-control" required>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" class="form-control">
+                    </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="form-group">
-                    <label for="sobrenome">Sobrenome</label>
-                    <input type="text" name="sobrenome" id="sobrenome" class="form-control">
-                </div>
+            <div class="form-group">
+                <label for="fone">Telefone *</label>
+                <input type="tel" name="fone" id="fone" class="form-control" placeholder="(xx) xxxxx-xxxx" required>
             </div>
-        </div>
-        <div class="form-group">
-            <label for="fone">Telefone *</label>
-            <input type="tel" name="fone" id="fone" class="form-control" placeholder="(xx) xxxxx-xxxx" required>
-        </div>
-        <div class="form-group">
-            <label for="email">E-Mail *</label>
-            <input type="email" name="email" id="email" class="form-control" placeholder="xxxxx@xxxx.com" required>
-        </div>
-        <div class="form-group">
-            <label for="info">Mensagem *</label><br>
-            <textarea name="info" id="info" class="form-control" required></textarea>
-        </div>
-        <div class="form-group">
-            <span>(*) Campos Obrigatórios</span>
-        </div>
-        <div class="form-group row">
-            <div class="col"><button type="submit" class="btn btn-light btn-block">Enviar</button></div>
-            <div class="col"><button type="reset" class="btn btn-danger btn-block">Apagar</button></div>
+            <div class="form-group">
+                <label for="email">E-Mail *</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="xxxxx@xxxx.com" required>
+            </div>
+            <div class="form-group">
+                <label for="info">Mensagem *</label><br>
+                <textarea name="info" id="info" class="form-control" required></textarea>
+            </div>
+            <div class="form-group">
+                <span>(*) Campos Obrigatórios</span>
+            </div>
+            <div class="form-group row">
+                <div class="col"><button type="submit" class="btn btn-light btn-block">Enviar</button></div>
+                <div class="col"><button type="reset" class="btn btn-danger btn-block">Apagar</button></div>
+            </div>
         </div>
     </form>
 
