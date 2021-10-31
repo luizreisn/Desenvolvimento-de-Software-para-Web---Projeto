@@ -9,6 +9,91 @@ body {
 
 .imgLogo {
     height: 100px;
+    margin-right: 20px;
+}
+
+.navbar2{
+    background-color: #1ed760;
+    margin-top: 116px;
+}
+
+@media (min-width: 1000px){
+    section{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+}
+
+@media(max-width: 999px){
+    section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 500px){
+    #menuh{
+        text-align: center;
+        height: 50px;
+        color: white;
+        padding: 10px;
+    }
+    .secLanches{
+        margin-top: 40px;
+    }
+    
+}
+@media (max-width:499px){
+    #menuh{
+        text-align: center;
+        height: 80px;
+        color: white;
+        padding: 10px;
+    }
+    .secLanches{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 271px){
+    #menuh{
+        text-align: center;
+        height: 110px;
+        color: white;
+        padding: 10px;
+    }
+    .secLanches{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 241px){
+    #menuh{
+        text-align: center;
+        height: 140px;
+        color: white;
+        padding: 10px;
+    }
+    .secLanches{
+        margin-top: 130px;
+    }
+}
+
+#menuh ul{
+    padding: 0px;
+}
+
+#menuh ul li{
+    display: inline;
+}
+
+#menuh ul li a{
+    padding-right: 20px;
+    display: inline;
+}
+
+#menuh ul li a:hover{
+    color: #682a8f;
 }
 
 footer {
@@ -19,3 +104,43 @@ a {
     color: white;
     font-size: 15pt;
 }
+
+.titulo{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.imgProd .card{
+    height: 110px;
+    width: 110px;
+    margin-bottom: 20px ;
+
+}
+
+.imgProd .card img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.dtProd{
+    margin-bottom: 20px;
+}
+
+.nomeProd{
+    text-align: center;
+    color: white;
+}
+
+.descProd{
+    text-align: center;
+    color: white;
+}
+
+.precoProd{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
