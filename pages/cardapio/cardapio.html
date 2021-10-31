@@ -34,7 +34,8 @@
             <div class="collapse navbar-collapse" id="Navbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="/pages/home/home.html">Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="/pages/cardapio/cardapio.html">Cardápio</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="/pages/cardapio/cardapio.html">Cardápio</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="/pages/horario/horario.html">Horário</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/sobre/sobre.html">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/contato/contato.html">Contato</a></li>
@@ -45,195 +46,459 @@
 
     <section id="lanches" class="secLanches" style="background-color:blueviolet;">
         <h1 class="titulo">Lanches</h1>
-        <div class="produto">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
-                    <div class="card align-items-center">
-                        <img  src="/img/xRadiacao.png">
-                    </div>
-                </div>
-                <div class="col-12 col-sm col-md col-lg col-xl dtProd">
-                    <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <h2>X-Radiação</h2>
-                    </div>
-                    <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <button type="button" class="btn btn-outline-light btnDet">Mais detalhes <i class="fas fa-sort-down" style="font-size:15pt"></i></button>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
-                    <h1>R$ 25,00</h1>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/xRadiacao.png">
                 </div>
             </div>
-        </div>
-        <div class="produto">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
-                    <div class="card align-items-center">
-                        <img  src="/img/chernoChicken.png">
-                    </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>X-Radiação</h2>
                 </div>
-                <div class="col-12 col-sm col-md col-lg col-xl dtProd">
-                    <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <h2>Cherno Chicken Jr</h2>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det1' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc1'></p>
                     </div>
-                    <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <button type="button" class="btn btn-outline-light btnDet">Mais detalhes <i class="fas fa-sort-down" style="font-size:15pt"></i></button>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
-                    <h1>R$ 18,00</h1>
                 </div>
             </div>
-        </div>
-        <div class="produto">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
-                    <div class="card align-items-center">
-                        <img  src="/img/chernoVegan.png">
-                    </div>
-                </div>
-                <div class="col-12 col-sm col-md col-lg col-xl dtProd">
-                    <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <h2>Cherno Vegan</h2>
-                    </div>
-                    <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <button type="button" class="btn btn-outline-light btnDet">Mais detalhes <i class="fas fa-sort-down" style="font-size:15pt"></i></button>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
-                    <h1>R$ 28,00</h1>
-                </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 25,00</h1>
             </div>
         </div>
-        <div class="produto">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
-                    <div class="card align-items-center">
-                        <img  src="/img/celsio137.png">
-                    </div>
-                </div>
-                <div class="col-12 col-sm col-md col-lg col-xl dtProd">
-                    <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <h2>Celsio 137</h2>
-                    </div>
-                    <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <button type="button" class="btn btn-outline-light btnDet">Mais detalhes <i class="fas fa-sort-down" style="font-size:15pt"></i></button>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
-                    <h1>R$ 28,00</h1>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/chernoChickenJr.png">
                 </div>
             </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Cherno Chicken Jr</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det2' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc2'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 18,00</h1>
+            </div>
         </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/chernoVegan.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Cherno Vegan</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det3' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc3'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 28,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/celsio137.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Celsio 137</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det4' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc4'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 28,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/chernoByls.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Cherno & Byls´s</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det5' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc5'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 30,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/chernoChicken.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Cherno Chicken</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det6' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc6'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 23,00</h1>
+            </div>
+        </div>
+
     </section>
-    <section id="comidas" style="background-color: aqua">
+    <section id="comidas" style="background-color: rgb(3, 181, 181)">
         <h1 class="titulo">Comidas</h1>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/saladaRadiacao.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Salada Radiação</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det7' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc7'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 26,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/saladaRadiacaoSimples.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Salada Radiação Simples</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det8' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc8'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 20,00</h1>
+            </div>
+        </div>
+
     </section>
-    <section id="bebidas" style="background-color: chartreuse;">
+    <section id="bebidas" style="background-color: rgb(98, 189, 6);">
         <h1 class="titulo">Bebidas</h1>
-        <div class="produto">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
-                    <div class="card align-items-center">
-                        <img  src="/img/cocacola.png">
-                    </div>
-                </div>
-                <div class="col-12 col-sm col-md col-lg col-xl dtProd">
-                    <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <h2>Coca-Cola</h2>
-                    </div>
-                    <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <button type="button" class="btn btn-outline-light btnDet">Mais detalhes <i class="fas fa-sort-down" style="font-size:15pt"></i></button>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
-                    <h1>R$ 5,00</h1>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/cocacola.png">
                 </div>
             </div>
-        </div>
-        <div class="produto">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
-                    <div class="card align-items-center">
-                        <img  src="/img/heineken.png">
-                    </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Coca-Cola</h2>
                 </div>
-                <div class="col-12 col-sm col-md col-lg col-xl dtProd">
-                    <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <h2>Heineken</h2>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det9' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc9'></p>
                     </div>
-                    <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <button type="button" class="btn btn-outline-light btnDet">Mais detalhes <i class="fas fa-sort-down" style="font-size:15pt"></i></button>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
-                    <h1>R$ 8,00</h1>
                 </div>
             </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 5,00</h1>
+            </div>
         </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/heineken.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Heineken</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det10' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc10'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 8,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/agua.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Água</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det11' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc11'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 7,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/aguaGas.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Água com Gás</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det12' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc12'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 7,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/laranja.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Suco de Laranja</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det13' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc13'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 4,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/morango.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Suco de Morango</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det14' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc14'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 4,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/pinkByl.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Pink Byl</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det15' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc15'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 4,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/sprite.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Sprite</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det16' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc16'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 4,00</h1>
+            </div>
+        </div>
+
     </section>
-    <section id="sobremesas" style="background-color: pink;">
+    <section id="sobremesas" style="background-color: rgb(252, 116, 139);">
         <h1 class="titulo">Sobremesas</h1>
-        <div class="produto">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
-                    <div class="card align-items-center">
-                        <img  src="/img/cake137.png">
-                    </div>
-                </div>
-                <div class="col-12 col-sm col-md col-lg col-xl dtProd">
-                    <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <h2>Cake 137</h2>
-                    </div>
-                    <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <button type="button" class="btn btn-outline-light btnDet">Mais detalhes <i class="fas fa-sort-down" style="font-size:15pt"></i></button>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
-                    <h1>R$ 18,00</h1>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/cake137.png">
                 </div>
             </div>
-        </div>
-        <div class="produto">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
-                    <div class="card align-items-center">
-                        <img  src="/img/chernoIceCream.png">
-                    </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Cake 137</h2>
                 </div>
-                <div class="col-12 col-sm col-md col-lg col-xl dtProd">
-                    <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <h2>Cherno Ice Cream</h2>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det17' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc17'></p>
                     </div>
-                    <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <button type="button" class="btn btn-outline-light btnDet">Mais detalhes <i class="fas fa-sort-down" style="font-size:15pt"></i></button>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
-                    <h1>R$ 15,00</h1>
                 </div>
             </div>
-        </div>
-        <div class="produto">
-            <div class="row">
-                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
-                    <div class="card align-items-center">
-                        <img  src="/img/radiacaoDoce.png">
-                    </div>
-                </div>
-                <div class="col-12 col-sm col-md col-lg col-xl dtProd">
-                    <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <h2>Radiação Doce</h2>
-                    </div>
-                    <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
-                        <button type="button" class="btn btn-outline-light btnDet">Mais detalhes <i class="fas fa-sort-down" style="font-size:15pt"></i></button>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
-                    <h1>R$ 13,00</h1>
-                </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 18,00</h1>
             </div>
         </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/chernoIceCream.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Cherno Ice Cream</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det18' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc18'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 15,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/radiacaoDoce.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Radiação Doce</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det19' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc19'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 13,00</h1>
+            </div>
+        </div>
+
+        <div class="row produto">
+            <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center imgProd">
+                <div class="card align-items-center">
+                    <img src="/img/chernoShake.png">
+                </div>
+            </div>
+            <div class="col-12 col-sm col-md col-lg col-xl dtProd">
+                <div class="row nomeProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <h2>Cherno Shake</h2>
+                </div>
+                <div class="row descProd d-flex justify-content-center justify-content-sm-start ml-sm-5">
+                    <div>
+                        <button class="btn btn-outline-light" id='det20' style="margin-bottom: 15px;">Mais detalhes</button>
+                        <p id='desc20'></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 d-flex justify-content-center precoProd">
+                <h1>R$ 20,00</h1>
+            </div>
+        </div>
+
     </section>
 
     <footer class="page-footer">
@@ -296,7 +561,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/pages/cardapio/cardapio.js"></script>
 </body>
 
