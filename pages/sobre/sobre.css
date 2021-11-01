@@ -11,6 +11,16 @@ body {
     height: 100px;
 }
 
+.titulo{
+    margin-top: 50px;
+    color: white;
+}
+
+.linha{
+    width: 300px;
+    height: 1px;
+}
+
 footer {
     background-color: #682a8f;
 }
