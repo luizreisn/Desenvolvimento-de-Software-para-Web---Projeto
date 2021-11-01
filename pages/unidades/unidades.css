@@ -32,8 +32,26 @@ body {
     margin-bottom: 30px;
 }
 
+.unidade .imagem{
+    height: 100px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+    margin: 15px;
+}
+
 .unidade .nome{
     color: white;
+    margin-bottom: 20px;
+}
+
+.descUnidade{
+    color: white;
+    margin: 20px;
+}
+
+.descUnidade h5{
+    margin-bottom: 15px;
 }
 
 footer {
