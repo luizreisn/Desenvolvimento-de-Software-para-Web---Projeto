@@ -12,20 +12,113 @@ body {
 }
 
 .titulo{
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     color: white;
 }
 
 .linha{
-    width: 300px;
+    min-width: auto;
+    max-width: 300px;
     height: 1px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.imagem{
+    height: 200px;
+    margin: 20px;
+}
+
+.texto{
+    color: white;
+    font-size: 15pt;
+}
+
+.s1{
+    background-color:rgb(138, 247, 48);
+}
+
+.s2{
+    background-color: rgb(253, 206, 49);
+}
+
+.s3{
+    background-color: rgb(252, 142, 59);
+}
+
+.s4{
+    background-color: rgb(205, 69, 218);
+}
+
+.s5{
+    background-color: rgb(50, 170, 235);
+}
+
+section{
+    text-align: center;
+}
+
+.tituloValores{
+    color: white;
+    font-size: 20pt;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.btn-valores{
+    border-radius: 100%;
+    width: 60px;
+    margin: 10px;
+    margin-left: auto;
+}
+
+.btn-valores i{
+    font-size: 25pt;
+}
+
+.valores{
+    color: white;
+    font-size: 15pt;
+    margin: 10px;
+}
+
+@media (min-width: 1000px){
+    section{
+        padding-left: 200px;
+        padding-right: 200px;
+        min-width: auto;
+    }
+}
+
+@media(max-width: 999px){
+    section{
+        padding-left: 20px;
+        padding-right: 20px;
+        min-width: auto;
+    }
+}
+
+.formTrabalho {
+    min-width: auto;
+    max-width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bolder;
 }
 
 footer {
     background-color: #682a8f;
+    min-width: auto;
 }
 
 a {
     color: white;
     font-size: 15pt;
 }
+
+
+
