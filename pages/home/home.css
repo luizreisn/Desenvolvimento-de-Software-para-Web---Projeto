@@ -11,6 +11,74 @@ body {
     height: 100px;
 }
 
+@media (max-width: 499px){
+    .carousel-inner{
+        margin-top: 20px;
+        height: 300px;
+        text-align: center;
+    }
+    .carousel-inner div a img{
+        height: 250px;
+        width: auto;
+        object-fit: contain;
+    }
+}
+
+@media (min-width: 500px){
+    .carousel-inner{
+        margin-top: 20px;
+        height: 600px;
+        text-align: center;
+    }
+    .carousel-inner div a img{
+        height: 550px;
+        width: auto;
+    }
+}
+
+section{
+    text-align: center;
+    padding: 40px;
+}
+
+.sec1{
+    background-color: rgb(253, 206, 49);
+}
+
+.sec2{
+    background-color: rgb(205, 69, 218);
+}
+
+.sec3{
+    background-color: rgb(50, 170, 235);
+}
+
+.secDados{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.secDados i{
+    font-size: 60pt;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 767px) {
+    .secResponsive{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .secResponsive{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
 footer {
     background-color: #682a8f;
 }
