@@ -14,6 +14,16 @@
 </head>
 
 <body>
+    <nav class="navbar2 navbar-dark fixed-top">
+        <div id="menuh" role="navigation">
+            <ul>
+                <li class="nav-item"><a class="nav-link" href="#sp">São Paulo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#rj">Rio de Janeiro</a></li>
+                <li class="nav-item"><a class="nav-link" href="#bh">Belo Horizonte</a></li>
+                <li class="nav-item"><a class="nav-link" href="#inter">Internacional</a></li>
+            </ul>
+        </div>
+    </nav>
 
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
@@ -25,7 +35,8 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="/pages/home/home.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/cardapio/cardapio.html">Cardápio</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="/pages/unidades/unidades.html">Unidades</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="/pages/unidades/unidades.html">Unidades</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="/pages/sobre/sobre.html">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/contato/contato.html">Contato</a></li>
                 </ul>
@@ -33,14 +44,16 @@
         </div>
     </nav>
 
-    <section>
-        <h1 class="text-center titulo">Nossas Unidades</h1><br>
-        <p class="text-center texto">Cherno & Byl´s está em diversos lugares do mundo. Procure a unidade mais proxima de
+    <section id="apresentacao">
+        <h1 class="titulo">Nossas Unidades</h1><br>
+        <p class="texto">Cherno & Byl´s está em diversos lugares do mundo. Procure a unidade mais proxima de
             você e venha se deliciar conosco.</p><br>
+        <hr class="bg-light linha">
+    </section>
 
-        <h1 class="text-center titulo">São Paulo</h1><br>
-        <hr class="bg-light mb-4 mt-0 mx-auto linha">
-
+    <section id="sp">
+        <h1 class="titulo">São Paulo</h1><br>
+        <hr class="bg-light linha">
         <div class="unidade">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
@@ -49,13 +62,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Paulista</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but1" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but1" class="btn btn-outline-light" ><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc1" class="descUnidade text-center">
+            <div id="desc1" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p>Av. Paulista, 2000</p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -78,7 +89,6 @@
                 </div>
             </div>
         </div>
-
         <div class="unidade">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
@@ -87,13 +97,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Morumbi</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but2" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but2" class="btn btn-outline-light"><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc2" class="descUnidade text-center">
+            <div id="desc2" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -116,7 +124,6 @@
                 </div>
             </div>
         </div>
-
         <div class="unidade">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
@@ -125,13 +132,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Alphaville</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but3" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but3" class="btn btn-outline-light "><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc3" class="descUnidade text-center">
+            <div id="desc3" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -154,7 +159,6 @@
                 </div>
             </div>
         </div>
-
         <div class="unidade">
             <div class="row d-flex align-items-center">
                 <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
@@ -163,13 +167,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Santo Amaro</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but4" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but4" class="btn btn-outline-light "><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc4" class="descUnidade text-center">
+            <div id="desc4" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -192,9 +194,11 @@
                 </div>
             </div>
         </div>
+    </section>
 
-        <h1 class="text-center titulo">Rio de Janeiro</h1><br>
-        <hr class="bg-light mb-4 mt-0 mx-auto linha">
+    <section id="rj" >
+        <h1 class= "titulo">Rio de Janeiro</h1><br>
+        <hr class="bg-light linha">
 
         <div class="unidade">
             <div class="row d-flex align-items-center">
@@ -204,13 +208,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Copacabana</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but5" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but5" class="btn btn-outline-light "><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc5" class="descUnidade text-center">
+            <div id="desc5" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -242,13 +244,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Leblon</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but6" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but6" class="btn btn-outline-light " ><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc6" class="descUnidade text-center">
+            <div id="desc6" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -280,13 +280,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Ipanema</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but7" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but7" class="btn btn-outline-light "><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc7" class="descUnidade text-center">
+            <div id="desc7" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -309,9 +307,10 @@
                 </div>
             </div>
         </div>
-
-        <h1 class="text-center titulo">Belo Horizonte</h1><br>
-        <hr class="bg-light mb-4 mt-0 mx-auto linha">
+    </section>
+    <section id="bh" >
+        <h1 class= "titulo">Belo Horizonte</h1><br>
+        <hr class="bg-light linha">
 
         <div class="unidade">
             <div class="row d-flex align-items-center">
@@ -321,13 +320,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Savassi</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but8" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but8" class="btn btn-outline-light "><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc8" class="descUnidade text-center">
+            <div id="desc8" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -350,9 +347,10 @@
                 </div>
             </div>
         </div>
-
-        <h1 class="text-center titulo">Internacional</h1><br>
-        <hr class="bg-light mb-4 mt-0 mx-auto linha">
+    </section>
+    <section id="inter" >
+        <h1 class= "titulo">Internacional</h1><br>
+        <hr class="bg-light linha">
 
         <div class="unidade">
             <div class="row d-flex align-items-center">
@@ -362,13 +360,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">New York</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but9" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but9" class="btn btn-outline-light " ><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc9" class="descUnidade text-center">
+            <div id="desc9" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -400,13 +396,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Miami</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but10" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but10" class="btn btn-outline-light "><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc10" class="descUnidade text-center">
+            <div id="desc10" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -438,13 +432,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Los Angeles</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but11" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but11" class="btn btn-outline-light " ><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc11" class="descUnidade text-center">
+            <div id="desc11" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>
@@ -476,13 +468,11 @@
                 <div class="col-12 col-sm-12 col-md d-flex justify-content-center justify-content-md-start ml-md-5">
                     <h2 class="nome">Paris</h2>
                 </div>
-                <div class="col-12 col-sm-12 col-md-4 d-flex justify-content-center justify-content-md-start ml-md-5">
-                    <button id="but12" class="btn btn-outline-light "
-                        style="border-radius: 100%; height: 60px; width: 60px; "><i class="fas fa-chevron-down"
-                            style="font-size: 25pt;"></i></button>
+                <div class="col-12 col-sm-12 col-md-3 d-flex justify-content-center justify-content-md-start ml-md-5">
+                    <button id="but12" class="btn btn-outline-light " ><i class="fas fa-chevron-down"></i></button>
                 </div>
             </div>
-            <div id="desc12" class="descUnidade text-center">
+            <div id="desc12" class="descUnidade">
                 <h5><i class="fas fa-map-marker-alt"></i> Endereço</h5>
                 <p></p>
                 <h5><i class="fas fa-clock"></i> Horário</h5>

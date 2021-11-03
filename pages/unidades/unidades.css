@@ -3,29 +3,100 @@ body {
     background-color: #1ed760;
 }
 
+.imgLogo {
+    height: 100px;
+}
+
 .navbar {
     background-color: #682a8f;
 }
 
-.imgLogo {
-    height: 100px;
+.navbar2{
+    background-color: #1ed760;
+    margin-top: 116px;
+}
 
+#menuh{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#menuh ul li{
+    display: inline;
+}
+
+#menuh ul li a{
+    padding-right: 20px;
+    display: inline;
+}
+
+#menuh ul li a:hover{
+    color: #682a8f;
+}
+
+@media (min-width: 674px){
+    #menuh{
+        height: 50px;
+    }
+    #apresentacao{
+        margin-top: 50px;
+    }
+    
+}
+@media (max-width:673px){
+    #menuh{
+        height: 80px;
+    }
+    #apresentacao{
+        margin-top: 80px;
+    }
+}
+
+@media (max-width: 381px){
+    #menuh{
+        height: 110px;
+    }
+    #apresentacao{
+        margin-top: 110px;
+    }
+}
+
+@media (max-width: 313px){
+    #menuh{
+        height: 140px;
+    }
+    #apresentacao{
+        margin-top: 140px;
+    }
+}
+
+#apresentacao{
+    text-align: center;
 }
 
 .titulo{
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 30px;
     color: white;
+    text-align: center;
 }
 
 .texto{
     color: white;
-    width: 300px;
-    margin: auto;
+    text-align: center;
+    min-width: auto;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .linha{
-    width: 300px;
+    min-width: auto;
+    max-width: 300px;
     height: 1px;
+    margin-bottom: 30px;
+    margin-top: 0px;
 }
 
 .unidade{
@@ -34,7 +105,8 @@ body {
 
 .unidade .imagem{
     height: 100px;
-    width: 300px;
+    min-width: auto;
+    width: 200px;
     object-fit: cover;
     object-position: center;
     margin: 15px;
@@ -45,14 +117,63 @@ body {
     margin-bottom: 20px;
 }
 
+.unidade button{
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+}
+
+.unidade button i{
+    font-size: 25pt;
+}
+
 .descUnidade{
     color: white;
     margin: 20px;
+    text-align: center;
 }
 
 .descUnidade h5{
     margin-bottom: 15px;
 }
+
+@media (min-width: 1000px){
+    section{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media(max-width: 999px){
+    section{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+#sp{
+    background-color:blueviolet;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+#rj{
+    background-color: rgb(50, 170, 235);
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+#bh{
+    background-color: rgb(138, 247, 48);
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}
+
+#inter{
+    background-color: rgb(205, 69, 218);
+    padding-top: 10px; 
+    padding-bottom: 10px;
+}  
 
 footer {
     background-color: #682a8f;
