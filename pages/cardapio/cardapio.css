@@ -3,17 +3,72 @@ body {
     background-color: #1ed760;
 }
 
-.navbar {
-    background-color: #682a8f;
-}
-
 .imgLogo {
     height: 100px;
+}
+
+.navbar {
+    background-color: #682a8f;
 }
 
 .navbar2{
     background-color: #1ed760;
     margin-top: 116px;
+}
+
+#menuh{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#menuh ul li{
+    display: inline;
+}
+
+#menuh ul li a{
+    padding-right: 20px;
+    display: inline;
+}
+
+#menuh ul li a:hover{
+    color: #682a8f;
+}
+
+@media (min-width: 540px){
+    #menuh{
+        height: 50px;
+    }
+    .secLanches{
+        margin-top: 40px;
+    }
+    
+}
+@media (max-width:539px){
+    #menuh{
+        height: 80px;
+    }
+    .secLanches{
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 311px){
+    #menuh{
+        height: 110px;
+    }
+    .secLanches{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 281px){
+    #menuh{
+        height: 140px;
+    }
+    .secLanches{
+        margin-top: 130px;
+    }
 }
 
 @media (min-width: 1000px){
@@ -30,81 +85,7 @@ body {
     }
 }
 
-@media (min-width: 500px){
-    #menuh{
-        text-align: center;
-        height: 50px;
-        color: white;
-        padding: 10px;
-    }
-    .secLanches{
-        margin-top: 40px;
-    }
-    
-}
-@media (max-width:499px){
-    #menuh{
-        text-align: center;
-        height: 80px;
-        color: white;
-        padding: 10px;
-    }
-    .secLanches{
-        margin-top: 70px;
-    }
-}
-
-@media (max-width: 271px){
-    #menuh{
-        text-align: center;
-        height: 110px;
-        color: white;
-        padding: 10px;
-    }
-    .secLanches{
-        margin-top: 100px;
-    }
-}
-
-@media (max-width: 241px){
-    #menuh{
-        text-align: center;
-        height: 140px;
-        color: white;
-        padding: 10px;
-    }
-    .secLanches{
-        margin-top: 130px;
-    }
-}
-
-#menuh ul{
-    padding: 0px;
-}
-
-#menuh ul li{
-    display: inline;
-}
-
-#menuh ul li a{
-    padding-right: 20px;
-    display: inline;
-}
-
-#menuh ul li a:hover{
-    color: #682a8f;
-}
-
-footer {
-    background-color: #682a8f;
-}
-
-a {
-    color: white;
-    font-size: 15pt;
-}
-
-.titulo{
+.categoria{
     color: white;
     padding: 20px;
     text-align: center;
@@ -137,17 +118,37 @@ a {
     color: white;
 }
 
+.btn{
+    margin-bottom: 15px;
+}
+
 .precoProd{
     text-align: center;
     color: white;
     margin-bottom: 20px;
 }
 
-.btn-link{
-    color: white;
+#lanches{
+    background-color:blueviolet;
 }
 
-.btn-link:hover{
-    color: white;
+#comidas{
+    background-color: rgb(50, 170, 235);
 }
 
+#bebidas{
+    background-color: rgb(138, 247, 48);
+}
+
+#sobremesas{
+    background-color: rgb(205, 69, 218);
+}
+
+footer {
+    background-color: #682a8f;
+}
+
+a {
+    color: white;
+    font-size: 15pt;
+}
